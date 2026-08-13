@@ -40,10 +40,11 @@ Final pipeline (2025_batch_norm_yolo11s.py):
 
 Default IR normalization settings that can be adjusted include the following:
 
-DIFF_THRESHOLD = 500 
-LOWER_PERCENTILE = 0.001
-UPPER_PERCENTILE = 99.999
+DIFF_THRESHOLD = 500  
+LOWER_PERCENTILE = 0.001  
+UPPER_PERCENTILE = 99.999  
 
-DIFF_THRESHOLD identifies the value change between two pixels that would initiate "despeckling" by replacing this pixel with the average of the surrounding pixel values.
-LOWER_PERCENTILE sets the lower boundary of pixel values for each frame that will be truncated and set as the high boundary for the normalization stretch.
-UPPER_PERCENTILE sets the upper boundary of pixel values for each frame that will be truncated and set as the high boundary for the normalization stretch.
+DIFF_THRESHOLD identifies the value change between two pixels that would initiate "despeckling" by replacing this pixel with the average of the surrounding pixel values.  
+LOWER_PERCENTILE sets the lower boundary of pixel values for each frame that will be truncated and set as the high boundary for the normalization stretch.  
+UPPER_PERCENTILE sets the upper boundary of pixel values for each frame that will be truncated and set as the high boundary for the normalization stretch.  
+
